@@ -200,8 +200,8 @@ class MiHeater {
   
   async getHeatingThresholdTemperature(callback) {
     try {
-      const [ st_temperature ] = await this.device.call('get_prop', ['target_temperature'])
-      callback(null, st_temperature)
+      const [ target_temperature ] = await this.device.call('get_prop', ['target_temperature'])
+      callback(null, target_temperature)
     } catch (e) {
       this.log.error('getHeatingThresholdTemperature', e)
       callback(e)
