@@ -1,0 +1,20 @@
+{
+  "name": "homebridge-Mi-Heater",
+  "version": "1.4.0",
+  "description": "Xiaomi Mi Heater plugin for Homebridge.",
+  "license": "MIT",
+  "keywords": [
+    "homebridge-plugin",
+    "xiaomi",
+    "Mi Heater"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hassbian-ABC/homebridge-Mi-Heater.git"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.4.0",
+    "miio": ">=0.15.6"
+  }
+}
