@@ -20,10 +20,10 @@ class MiHeater {
 	this.services = []
 
     if (!this.ip)
-      throw new Error('Your must provide IP address of the Humidifier.')
+      throw new Error('Your must provide IP address of the MiHeater.')
 
     if (!this.token)
-      throw new Error('Your must provide token of the Humidifier.')
+      throw new Error('Your must provide token of the MiHeater.')
   
     this.service = new Service.HeaterCooler(this.name)
 
