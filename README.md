@@ -21,16 +21,3 @@ If you are using Raspberry Pi, please read [Running-HomeBridge-on-a-Raspberry-Pi
     }
   ]
 ```
-## Get token
-Open command prompt or terminal. Run following command:   
-```
-miio discover
-```
-Wait until you get output similar to this:   
-```
-Device ID: xxxxxxxx   
-Model info: Unknown   
-Address: 192.168.88.xx   
-Token: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx via auto-token   
-Support: Unknown   
-```
