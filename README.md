@@ -7,7 +7,7 @@ If you are using Raspberry Pi, please read [Running-HomeBridge-on-a-Raspberry-Pi
 2. Make sure you can see HomeBridge in your iOS devices, if not, please go back to step 1.   
 3. Install packages.   
 ```
-(sudo)npm install -g miio https://github.com/hassbian-ABC/homebridge-Mi-Heater
+(sudo) npm install -g miio https://github.com/hassbian-ABC/homebridge-Mi-Heater
 ```
 
 
