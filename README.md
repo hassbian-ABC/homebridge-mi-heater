@@ -1,3 +1,4 @@
+![](https://github.com/hassbian-ABC/homebridge-Mi-Heater/blob/master/images/Heater.jpg)
 ## Note: 
  If you find bugs, please submit them to issues or QQ Group: 107927710.
 
