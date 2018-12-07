@@ -1,5 +1,5 @@
 ## Note: 
-I have only a part of these devices, so some devices don't have tested. If you find bugs, please submit them to issues or QQ Group: 107927710.
+ If you find bugs, please submit them to issues or QQ Group: 107927710.
 
 ## Installation
 1. Install HomeBridge, please follow it's [README](https://github.com/nfarina/homebridge/blob/master/README.md).   
