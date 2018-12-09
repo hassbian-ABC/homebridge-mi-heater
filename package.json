@@ -2,7 +2,6 @@
   "name": "homebridge-Mi-Heater",
   "version": "1.4.0",
   "description": "Xiaomi Mi Heater plugin for Homebridge.",
-  "license": "MIT",
   "keywords": [
     "homebridge-plugin",
     "xiaomi",
