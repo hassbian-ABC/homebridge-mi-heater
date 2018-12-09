@@ -1,6 +1,6 @@
 {
   "name": "homebridge-Mi-Heater",
-  "version": "1.4.0",
+  "version": "0.1",
   "description": "Xiaomi Mi Heater plugin for Homebridge.",
   "keywords": [
     "homebridge-plugin",
