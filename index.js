@@ -5,7 +5,7 @@ let Service, Characteristic
 module.exports = homebridge => {
   Service = homebridge.hap.Service
   Characteristic = homebridge.hap.Characteristic
-  homebridge.registerAccessory('homebridge-Mi-Heater', 'MiHeater', MiHeater)
+  homebridge.registerAccessory('homebridge-mi-heater', 'MiHeater', MiHeater)
 }
 
 class MiHeater {
