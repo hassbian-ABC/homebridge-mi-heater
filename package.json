@@ -1,6 +1,6 @@
 {
-  "name": "homebridge-Mi-Heater",
-  "version": "0.0.5",
+  "name": "homebridge-mi-heater",
+  "version": "0.0.6",
   "description": "XiaoMi Heater plugin for HomeBridge(https://github.com/nfarina/homebridge).",
   "keywords": [
     "homebridge-plugin"
@@ -8,10 +8,10 @@
   "author": "hassbian-ABC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hassbian-ABC/homebridge-Mi-Heater"
+    "url": "https://github.com/hassbian-ABC/homebridge-mi-heater"
   },
   "bugs": {
-    "url": "https://github.com/hassbian-ABC/homebridge-Mi-Heater/issues"
+    "url": "https://github.com/hassbian-ABC/homebridge-mi-heater/issues"
   },
   "engines": {
     "node": ">=0.12.0",
