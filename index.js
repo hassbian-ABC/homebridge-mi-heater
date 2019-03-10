@@ -15,6 +15,8 @@ class MiHeater {
     this.ip = config.ip
     this.token = config.token
     this.name = config.name || 'MiHeater'
+    this.mintemp = config.mintemp
+    this.maxtemp = config.maxtemp
 	
 	
 	this.services = []
@@ -61,8 +63,8 @@ class MiHeater {
       .on('get', this.getHeatingThresholdTemperature.bind(this))
       .on('set', this.setHeatingThresholdTemperature.bind(this))
 	  .setProps({
-		  minValue: that.config.mintemp,
-          maxValue: that.config.maxtemp, 
+		  minValue: config.mintemp,
+          maxValue: config.maxtemp, 
           minStep: 1, 
         })
 		
