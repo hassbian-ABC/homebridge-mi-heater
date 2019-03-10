@@ -61,8 +61,8 @@ class MiHeater {
       .on('get', this.getHeatingThresholdTemperature.bind(this))
       .on('set', this.setHeatingThresholdTemperature.bind(this))
 	  .setProps({
-		  minValue: 16,
-          maxValue: 32, 
+		  minValue: that.config.mintemp,
+          maxValue: that.config.maxtemp, 
           minStep: 1, 
         })
 		
