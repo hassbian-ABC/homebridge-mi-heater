@@ -15,8 +15,7 @@ class MiHeater {
     this.ip = config.ip
     this.token = config.token
     this.name = config.name || 'MiHeater'
-    this.mintemp = config.mintemp
-    this.maxtemp = config.maxtemp
+
 	
 	
 	this.services = []
