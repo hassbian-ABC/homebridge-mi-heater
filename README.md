@@ -19,6 +19,8 @@ If you are using Raspberry Pi, please read [Running-HomeBridge-on-a-Raspberry-Pi
       "accessory": "MiHeater",
       "name": "MiHeater",
       "ip": "192.168.1.77",
+      "mintemp": 16,
+      "maxtemp": 32,
       "token": "7251f2fdc5eda606d9125d882c932914"
     }
   ]
