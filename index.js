@@ -72,8 +72,8 @@ MiHeater.prototype = {
 
         var infoService = new Service.AccessoryInformation();
         infoService
-            .setCharacteristic(Characteristic.Manufacturer, "xiaomi")
-            .setCharacteristic(Characteristic.Model, "smartmi")
+            .setCharacteristic(Characteristic.Manufacturer, "smartmi")
+            .setCharacteristic(Characteristic.Model, "Heater")
             .setCharacteristic(Characteristic.SerialNumber, this.config.ip);
         services.push(infoService);
 		
