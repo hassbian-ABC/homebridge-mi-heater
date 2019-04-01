@@ -46,7 +46,7 @@ function MiHeater(log, config) {
     this.config = config;
     
     this.log.info("[MiHeater][INFO]***********************************************************");
-    this.log.info("[MiHeater][INFO]          MiHeater v%s by hassbian-ABC 0.0.1");
+    this.log.info("[MiHeater][INFO]          MiHeater v%s by hassbian-ABC 0.1.0");
     this.log.info("[MiHeater][INFO]  GitHub: https://github.com/hassbian-ABC/homebridge-MiHeater ");
     this.log.info("[MiHeater][INFO]                                                                  ");
     this.log.info("[MiHeater][INFO]***********************************************************");
